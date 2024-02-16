@@ -1,0 +1,24 @@
+.Gifs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Gifs-gifs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Gifs-images {
+  width: 100%;
+  margin: 10px 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .Gifs-images {
+    width: 50%;
+  }
+}
